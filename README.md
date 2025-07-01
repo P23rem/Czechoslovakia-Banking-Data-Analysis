@@ -2,11 +2,9 @@
 
 # Czechoslovakia-Banking-Data-Analysis
 
-![](Screen_short/KPI.png)
 
-Hello everyone! 👋
-
-I am excited to share my latest project work on end-to-end financial data analysis project using the Czechoslovakia Bank dataset📊. This project is a fully functional automated financial model, where clients can simply upload data in AWS ☁️, and the dashboard will update automatically in Power BI. 🚀
+Hii everyone!
+            I'm excited to share my latest end-to-end financial data analysis project using the Czechoslovakia Bank dataset. This project features a fully functional financial model, where clients can simply upload data as a local file, specify the file name in a .txt file, and run the existing mapping in Informatica Cloud. The Power BI dashboard then updates automatically with the new data.
 
 ## Project Goal
 
@@ -20,28 +18,19 @@ I am excited to share my latest project work on end-to-end financial data analys
 ## Skill/Concepts 
 This is fully functional automated Financial Model involved four major steps: 
 
-Excel 📑 > AWS ☁️ > Snowflake 🔄 > Power BI 📊
+Excel 📑 > Informatica cloud ☁️ > MYSQL 🔄 > Power BI 📊
 
 ### Microsoft Excel 
 - Data Cleaning
 - Change File Type To CSV
-- [Click Here To Know More](https://www.notion.so/Data-Pre-Processing-Using-Excel-7bf353147197427eafb97152fa46e40b)
 
-### AWS
-- Bucket Creation In S3
-- Role Assigning 
-- Policy Creation 
+### Informatica ![Click here](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Data_ingestion_using_informatica_Process_step.docx)
+- Insertion of data from local files to cloud and then MYSQL using informatica by indirect files method.
 
-### Snowflack
-- Create Warehouses, Database, Schema, Table [Click Here To Know More](https://www.notion.so/Table-Creation-in-Snowflake-b3c0d7c58b3e4dc78b641495be73b8ce)
-- Advance Data Cleaning  [Click Here To Know More](https://www.notion.so/Data-transformation-In-SQL-a16a9c2d943941fc96a9c5922ddbe0e3)
+### MYSQL
+- Create Warehouses, Database, Schema, Table 
+- Advance Data Cleaning ![Click here](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Data%20Munupulation%20_cleaning.docx)
 - Storage Integration 
-- File Format and Stage Creation
-- Pipe-Line Creation
-- Notification Alert Creation 
-- Store Procedures Creation
-- Task Creation 
-- Alter And Call Task
 
 ### Power BI
 - Build Connection and Extract Data 
@@ -49,11 +38,7 @@ Excel 📑 > AWS ☁️ > Snowflake 🔄 > Power BI 📊
 - Load Data
 - Dashboard Creation
 
-  ![](Screen_short/ERD.png)
-
-Overall, this project was a great learning experience, and I am proud to have completed such a complex project. If you have any questions about my project, please feel free to reach out to me. 😊
-
-[Visit Here For more End to End Process](https://www.notion.so/End-To-End-Data-Analytics-Project-Czechoslovakia-Banking-Financial-Data-Analysis-79615e3aae6f4eff9e499971208f9388?showMoveTo=true)
+This Project gives me an overall full stack data analytic project i.e from data cleaning , data storage and integration to making dashboard and writing queries.
 
 
 ## Domain Description
@@ -61,7 +46,7 @@ Overall, this project was a great learning experience, and I am proud to have co
 The dataset is a collection of financial information from a Czech bank. The dataset deals with over 5,300 bank clients with approximately 1,000,000 transactions. Additionally, the bank represented in the dataset has extended close to 700 loans and issued nearly 900 credit cards, all of which are represented in the data.
 
 ## Entity-Relationship Description
-![](domain1.gif)
+![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20153834.png)
 ### Domain
 - Each account has both static characteristics (e.g. date of creation, address of the branch) given in relation "account" and dynamic characteristics (e.g. payments debited or credited, balances) given in relations "permanent order" and "transaction".
 Relation "client" describes characteristics of persons who can manipulate with the accounts.
@@ -92,7 +77,6 @@ One client can have more accounts, more clients can manipulate with single accou
 
 ### TRANSACTIONS (TRANS)
 - Each record describes one transaction on an account
-- Size: 1056320 objects in the file
 
 ### LOANS
 - Each record describes a loan granted for a given account
@@ -105,8 +89,6 @@ One client can have more accounts, more clients can manipulate with single accou
 ### DEMOGRAPHIC DATA (DISTRICT)
 - Each record describes demographic characteristics of a district
 - Size: 77 objects in the file
-
-![](table_discreption.png)
 
 ## Problem Statement 
 The Czechoslovakia Bank wants to analyse its financial data to gain insights and make informed decisions. The bank needs to identify trends, patterns, and potential risks in its financial operations. They also want to explore the possibility of introducing new financial products or services based on their analysis.
@@ -125,12 +107,11 @@ The objective of this analysis is to provide the Czechoslovakia Bank with action
 This report consists of 10 Pages.
 1. Demographics![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155049.png)
 2. Overview of Account ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155058.png)
-3. Loan Overview ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155058.png)
-4. Card Overview ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155058.png)
-5. Individual Bank Performance ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155058.png)
-6. Transaction Overview
-7. Overall Bank Performance
-8. Breakdown of total balance in bank
-10. Loan
+3. Loan Overview ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155109.png)
+4. Card Overview ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155118.png)
+5. Individual Bank Performance ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155128.png)
+6. Transaction Overview ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155139.png)
+7. Overall Bank Performance ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155152.png)
+8. Breakdown of total balance in bank ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155118.png)
     
 
