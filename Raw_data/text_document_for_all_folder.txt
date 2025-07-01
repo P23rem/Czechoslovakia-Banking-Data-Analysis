@@ -1,0 +1,8 @@
+C:\Users\HP\OneDrive\Desktop\bank_stu_project_cleaning_using_sql\bank_stud_data\account
+C:\Users\HP\OneDrive\Desktop\bank_stu_project_cleaning_using_sql\bank_stud_data\card
+C:\Users\HP\OneDrive\Desktop\bank_stu_project_cleaning_using_sql\bank_stud_data\client
+C:\Users\HP\OneDrive\Desktop\bank_stu_project_cleaning_using_sql\bank_stud_data\disp
+C:\Users\HP\OneDrive\Desktop\bank_stu_project_cleaning_using_sql\bank_stud_data\district
+C:\Users\HP\OneDrive\Desktop\bank_stu_project_cleaning_using_sql\bank_stud_data\loan
+C:\Users\HP\OneDrive\Desktop\bank_stu_project_cleaning_using_sql\bank_stud_da\order_details
+C:\Users\HP\OneDrive\Desktop\bank_stu_project_cleaning_using_sql\bank_stud_dat\transactions
