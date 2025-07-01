@@ -1,4 +1,3 @@
-# Czechoslovakia-Banking-Data-Analysis
 
 # Czechoslovakia-Banking-Data-Analysis
 
