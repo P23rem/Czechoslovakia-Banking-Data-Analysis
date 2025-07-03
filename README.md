@@ -114,6 +114,6 @@ This report consists of 10 Pages.
 8. Breakdown of total balance in bank ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155203.png)
 
 # Final report link
-[Download Final Report (PPTX)](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/raw/main/Czechoslovakia%20Banking%20report.pptx)
+[Download Final Report (PPTX)](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Czechoslovakia%20Banking%20report.pptx)
 
 
