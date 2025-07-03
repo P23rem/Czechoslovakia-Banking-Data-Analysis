@@ -5,10 +5,21 @@
 Hii everyone!
             I'm excited to share my latest end-to-end financial data analysis project using the Czechoslovakia Bank dataset. This project features a fully functional financial model, where clients can simply upload data as a local file, specify the file name in a .txt file, and run the existing mapping in Informatica Cloud. The Power BI dashboard then updates automatically with the new data.
 
+## 📌 Project Goal
+## 🛠 Tools & Technologies
+## 📊 Key Metrics & Insights
+## 🧠 Business Recommendations
+## 📁 Folder Structure
+## 📄 Final Report
+
 ## Project Goal
 
-**The bank wants to improve their services. For instance, the bank managers have only vague idea, who is a good client (whom to offer some additional services) and who is a bad client (whom to watch carefully to minimize the bank loses). Fortunately, the bank stores data about their clients, the accounts (transactions within several months), the loans already granted, the credit cards issued The bank managers hope to improve their understanding of customers and seek specific actions to improve services. A mere application of a discovery tool will not be convincing for them.**
+The Czechoslovakia Bank aims to:
+- Identify who are high-value and high-risk clients
+- Analyze operations across accounts, loans, and cards
+- Recommend new financial products based on data-driven insights
 
+*------------------------------------------------------------------------------------------------------------------------------------------------------------*
 - The Czechoslovakia Bank has provided a dataset containing information about its financial activities for the past 5 years. we need to provide insights on how can bank improve its customer service and satisfaction levels.
 - Need to provide insights by analyzing the following tables - District, Account, Orders, Loan, Cards, Clients, Transactions and Disposition.
 - The bank needs to identify trends, patterns, and potential risks in its financial operations. They also want to explore the possibility of introducing new financial products or services based on their analysis.
