@@ -112,5 +112,6 @@ This report consists of 10 Pages.
 6. Transaction Overview ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155139.png)
 7. Overall Bank Performance ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155152.png)
 8. Breakdown of total balance in bank ![](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Screen_shorts/Screenshot%202025-07-01%20155203.png)
-    
+
+# Final report [](https://github.com/P23rem/Czechoslovakia-Banking-Data-Analysis/blob/main/Czechoslovakia%20Banking%20report.pptx)
 
